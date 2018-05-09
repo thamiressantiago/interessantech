@@ -1,0 +1,21 @@
+.banner{
+    background-image: url(imgfundo.png);
+    padding-top: 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 100px;
+    min-height: 400px;
+    align-items: center;
+}
+
+.banner p{
+    font-family: Orchestra of Strings Regular;
+    font-size: 25pt;
+    color: white;
+    align-content: center;
+    letter-spacing: 6px;
+    width: 60%;
+    text-align: center;
+    padding-left: 20%;
+}
