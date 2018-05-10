@@ -1,0 +1,12 @@
+.Sobre h1{
+    font-family: Orchestra of Strings Regular;
+    font-size: 30pt;
+    letter-spacing: 8px;
+    align-content: center;
+    padding-left: 580px;
+}
+
+.Sobre p{
+    font-family: Century Gothic;
+    font-size: 16pt;
+}

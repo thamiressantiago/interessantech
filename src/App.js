@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './Componentes/Banner';
+import Sobre from './Componentes/Sobre';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
 
         <header className="App-header">
 
-          <img src="itbranco.png"/>
+          <img id="it" src="itbranco.png"/>
          
             <nav> 
             <a href="">HOME</a>
@@ -20,7 +21,8 @@ class App extends Component {
             </nav>
       
         </header>
-<Banner/>
+        <Banner/>
+        <Sobre/>
                    
       </div>
     );
