@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Banner from './Componentes/Banner';
 import Sobre from './Componentes/Sobre';
+import Eventos from './Componentes/Eventos';
 import './App.css';
 
 class App extends Component {
@@ -23,7 +24,8 @@ class App extends Component {
         </header>
         <Banner/>
         <Sobre/>
-                   
+        <Eventos/>    
+
       </div>
     );
   }
