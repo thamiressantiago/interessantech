@@ -1,17 +1,5 @@
-
-/* .Eventos p{
-    align-content: center;
-    font-family: Orchestra of Strings Regular;
-    font-style: unset;
-    font-size: 18pt;
-    color: white;
-    background: #8a2b82;
-    
+.Eventos{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
 }
-
-.eventos{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-}
- */

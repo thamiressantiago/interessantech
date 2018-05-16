@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Eventos.css';
-import Carrossel from '../Contato/Carrossel/Carrossel';
+import Carrossel from '../Carrossel/Carrossel';
 
 class Eventos extends Component {
     render (){
@@ -8,7 +8,9 @@ class Eventos extends Component {
             <section className="Eventos">
                 <h2>Eventos</h2>
                 <hr /> <hr />
-                <Carrossel />
+                <div className="teste">
+                    <Carrossel />
+                </div>
             </section>   
         );
     }

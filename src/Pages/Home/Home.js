@@ -7,6 +7,7 @@ import Eventos from '../../Components/Eventos/Eventos';
 import Contato from '../../Components/Contato/Contato';
 import Footer from '../../Components/Footer/Footer';
 import Comunidade from '../../Components/Comunidade/Comunidade';
+import Carrossel from '../../Components/Carrossel/Carrossel';
 
 class Home extends Component {
   render() {
@@ -22,6 +23,7 @@ class Home extends Component {
             <div className="grade"></div>
             <Contato />
             <Footer />
+            {/* <Carrossel /> */}
         </div>    
     );
   }
