@@ -1,10 +1,11 @@
-.hexagon{
+ .hexagon{
     position: relative;
     width: 150px; 
     height: 86.60px;
     margin: 43.30px 0;
-    background-size: auto 173.2051px;
-    background-position: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position:50% !important; 
 }
 
 .hexTop,
@@ -21,7 +22,7 @@
     left: 21.97px;
 }
   
-/*counter transform the bg image on the caps*/
+/* counter transform the bg image on the caps */
 .hexTop:after,
 .hexBottom:after {
     content: "";
@@ -62,4 +63,4 @@
     height: 86.6025px;
     z-index: 2;
     background: inherit;
-}
+} 
