@@ -1,0 +1,62 @@
+.Agenda>h2{
+    padding-top: 80px;
+}
+
+.calendario{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.data{
+    width: 50%;
+    height: auto;
+    color: #8B2A82;
+    font-family: OCR A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 11%;
+}
+
+.dia{
+    font-size: 50pt;
+    margin: 0;
+}
+
+.mes{
+    font-size: 35pt;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.titulo{
+    font-family: OCR A;
+    text-transform: uppercase;
+    font-size: 20pt;
+    margin: 0;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+.info_{
+    margin: 0;
+    padding: 20px;
+    width: 90%;
+}
+
+.site{
+    margin: 0;
+    padding-left: 20px;
+    font-family: OCR A;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.hexa{
+    padding-top: 5%;
+}
