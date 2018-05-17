@@ -20,7 +20,7 @@
     border: 2px solid grey;
     border-right: 2px solid lightgrey;
     border-bottom: none;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 textarea.form-control{

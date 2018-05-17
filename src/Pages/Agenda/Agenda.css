@@ -11,7 +11,7 @@
 }
 
 .data{
-    width: 50%;
+    width: 30%;
     height: auto;
     color: #8B2A82;
     font-family: OCR A;
@@ -58,5 +58,7 @@
 }
 
 .hexa{
+    width: 30%;
     padding-top: 5%;
+    padding-left: 20px;
 }

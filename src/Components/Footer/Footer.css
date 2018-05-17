@@ -18,9 +18,9 @@ div footer div{
     padding-top: 10px;
     display:flex;
     justify-content:center;
-
 }
 
-.icones{
-    width: 100%;
+#teste{
+    width: 100px;
+    height: 50%;
 }

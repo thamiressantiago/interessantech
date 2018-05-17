@@ -16,7 +16,7 @@ class Comunidade extends Component {
     render() {
       return (
         <section className="Comunidade">
-        <h2>Comunidade</h2>
+        <h2>Comunidades</h2>
         <hr /> <hr />
         <div id="colmeia">
             <div className="comunity1">

@@ -11,7 +11,8 @@ class Footer extends Component{
                         <img src={require('../../Images/insta.png')} alt="instagem" />
                         <img src={require('../../Images/tt.png')} alt="twitter" />
                     </div>
-                    <p class="rodape">© 2018 - InteressanTech | Estação Hack</p>  
+                    <p class="rodape">Parceria: <img id="teste" src={require('../../Images/protech.png')} alt="ProTech" /></p>
+                    <p class="rodape">© 2018 - InteressanTech | Estação Hack</p>
                 </footer>
             </div>
         );
