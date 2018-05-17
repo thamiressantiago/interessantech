@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Menu.css';
+import '../Menu/Menu.css';
 
 class Menu extends Component{
     render (){
@@ -8,11 +8,11 @@ class Menu extends Component{
                 <img src={require('../../Images/itbranco.png')} alt="logo"/>
                         
                 <nav> 
-                    <a href="">HOME</a>
-                    <a href="">SOBRE</a>
-                    <a href="">EVENTOS</a>
+                    <a href="">Home</a>
+                    <a href="">Sobre</a>
+                    <a href="">Eventos</a>
                     <a href="">Contato</a>
-                    <a id="login" onClick={this.props.alternarModal}>Login+</a>
+                    <a id="login" onClick={this.props.alternarModal}>Deslogar+</a>
                 </nav>
             </header>
         );

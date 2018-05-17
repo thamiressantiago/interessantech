@@ -1,0 +1,19 @@
+.modal-style {
+    width: 1000px;
+    height: 550px;
+    margin: 60px;
+    margin-left: 150px;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+    opacity: 0;
+    transform: translateY(-110%);
+}
+
+.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}

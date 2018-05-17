@@ -8,7 +8,7 @@ class Eventos extends Component {
             <section className="Eventos">
                 <h2>Eventos</h2>
                 <hr /> <hr />
-                <div className="teste">
+                <div>
                     <Carrossel />
                 </div>
             </section>   

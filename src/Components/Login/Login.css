@@ -1,0 +1,49 @@
+.login{
+    background-image: url('../../Images/grade.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 90%;
+}
+
+#dados{
+    width: 40%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#dados img{
+    width: 120px;
+    height: 120px;
+    padding-left: 150px;
+}
+
+.user-control{
+    font-family: OCR A;
+    width: 100%;
+    padding: 6px 12px;
+    line-height: 1.4;
+    font-size: 20px;
+    border-right: 1px solid #8B2A82;
+    border-bottom: 1px solid #8B2A82;
+    border-radius: 5px;
+}
+
+.user-control::placeholder {
+    color: #8B2A82;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#botao{
+    width: 30%;
+    display: flex;
+    justify-content: inherit;
+}
+
+.termos{
+    font-size: 12pt;
+    margin:0;
+    width: 100%;
+    padding:10px;
+    padding-top:50px;
+}
